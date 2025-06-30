@@ -1,0 +1,10 @@
+empty_tuple = ()
+print("Empty tuple:", empty_tuple)
+sisters = ("Kathy", "Jane", "Angel")
+brothers = ("Vince", "Adonis")
+siblings = sisters + brothers
+print("Siblings:", siblings)
+num_siblings = len(siblings)
+print("Number of siblings:", num_siblings)
+family_members = siblings + ("Lilia", "Alberto")
+print("Family members:", family_members)
